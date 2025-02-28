@@ -35,7 +35,8 @@ Install postgressql in MAC
                     - psql -h localhost -U postgres -p 5432 -d olympic -f filepath/filename.sql
 
 =====================================================
-INSIDE OF PSQL
+INSIDE PSQL:
+
 \l - list all databases
 \d - list all tables inside the current database
 \c nameofdatabase - connect to a database
