@@ -48,6 +48,7 @@ INSIDE PSQL:
 - CREATE TABLE nameoftable (col1 INT, col2 VARCHAR...);
 - DROP TABLE nameoftable;
 
-=====================================================
-dump from postgres to local file
-    - pg_dump -h localhost -U postgres -p 5432 -d olympic > filename.sql (filepath/filename.sql)
+
+dump from postgres to local file:
+
+- pg_dump -h localhost -U postgres -p 5432 -d olympic > filename.sql (filepath/filename.sql)
