@@ -39,14 +39,14 @@ Install postgressql in MAC
 
 INSIDE PSQL:
 
-\l - list all databases
-\d - list all tables inside the current database
-\c nameofdatabase - connect to a database
-\q - quit psql
-CREATE DATABASE nameofdatabase;
-DROP DATABASE nameofdatabase;
-CREATE TABLE nameoftable (col1 INT, col2 VARCHAR...);
-DROP TABLE nameoftable;
+- \l - list all databases
+- \d - list all tables inside the current database
+- \c nameofdatabase - connect to a database
+- \q - quit psql
+- CREATE DATABASE nameofdatabase;
+- DROP DATABASE nameofdatabase;
+- CREATE TABLE nameoftable (col1 INT, col2 VARCHAR...);
+- DROP TABLE nameoftable;
 
 =====================================================
 dump from postgres to local file
