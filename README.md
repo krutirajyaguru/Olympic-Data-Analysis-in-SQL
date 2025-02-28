@@ -12,7 +12,8 @@ Install postgressql in MAC
 - Open PostgreSQL 15 from applications
 - server settings -> start
 - Try psql command to check if it is working or not
-=====================================================
+
+  
 - Create olympic.sql file with 'create table' query
 - open terminal on the file location
     - command: psql -h localhost -U postgres -p 5432
@@ -34,7 +35,8 @@ Install postgressql in MAC
                     , write sql queries here)
                     - psql -h localhost -U postgres -p 5432 -d olympic -f filepath/filename.sql
 
-=====================================================
+
+
 INSIDE PSQL:
 
 \l - list all databases
