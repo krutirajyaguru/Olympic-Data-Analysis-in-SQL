@@ -78,6 +78,7 @@ with all_countries as
         group by games)
     select distinct
     concat(first_value(games) over(order by total_countries) 
+    
     -- FIRST_VALUE(games): This is the window function that returns the first value of the games column within the current window frame.
     -- OVER: This keyword indicates that a window function is being used.
     , ' - '
